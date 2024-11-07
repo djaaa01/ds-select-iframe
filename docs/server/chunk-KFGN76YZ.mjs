@@ -1,14 +1,5 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-<style>
-  :host {
+import './polyfills.server.mjs';
+import{B as f,a as o,b as i,c as r,d as l,e as t,f as a,g as c,l as p,o as g,q as m,r as s,u as d,y as h}from"./chunk-K4ZHKZOI.mjs";var v=(()=>{class n{title="ds-select-iframe";static \u0275fac=function(e){return new(e||n)};static \u0275cmp=o({type:n,selectors:[["app-root"]],standalone:!0,features:[c],decls:4,vars:0,consts:[[1,"main"],["name","q-alert","allow","fullscreen;clipboard-write *;clipboard-read *;","ng-style","vm.iframeStyle","src",i`https://pages.atc-github.azure.cloud.bmw/qxz5a5y/ds-select-window-bug/`,"width","412","height","915",2,"visibility","visible"]],template:function(e,_){e&1&&(r(0,"main",0),a(1," alo "),t(2,"iframe",1),l(),t(3,"router-outlet"))},dependencies:[h],styles:[`[_nghost-%COMP%] {
     --bright-blue: oklch(51.01% 0.274 263.83);
     --electric-violet: oklch(53.18% 0.28 296.97);
     --french-violet: oklch(47.66% 0.246 305.88);
@@ -44,7 +35,7 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  h1 {
+  h1[_ngcontent-%COMP%] {
     font-size: 3.125rem;
     color: var(--gray-900);
     font-weight: 500;
@@ -56,12 +47,12 @@
       "Segoe UI Emoji", "Segoe UI Symbol";
   }
 
-  p {
+  p[_ngcontent-%COMP%] {
     margin: 0;
     color: var(--gray-700);
   }
 
-  main {
+  main[_ngcontent-%COMP%] {
     width: 100%;
     min-height: 100%;
     display: flex;
@@ -72,11 +63,11 @@
     position: relative;
   }
 
-  .angular-logo {
+  .angular-logo[_ngcontent-%COMP%] {
     max-width: 9.2rem;
   }
 
-  .content {
+  .content[_ngcontent-%COMP%] {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -84,21 +75,21 @@
     margin-bottom: 3rem;
   }
 
-  .content h1 {
+  .content[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {
     margin-top: 1.75rem;
   }
 
-  .content p {
+  .content[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {
     margin-top: 1.5rem;
   }
 
-  .divider {
+  .divider[_ngcontent-%COMP%] {
     width: 1px;
     background: var(--red-to-pink-to-purple-vertical-gradient);
     margin-inline: 0.5rem;
   }
 
-  .pill-group {
+  .pill-group[_ngcontent-%COMP%] {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -106,7 +97,7 @@
     gap: 1.25rem;
   }
 
-  .pill {
+  .pill[_ngcontent-%COMP%] {
     display: flex;
     align-items: center;
     --pill-accent: var(--bright-blue);
@@ -126,79 +117,52 @@
     text-decoration: none;
   }
 
-  .pill:hover {
+  .pill[_ngcontent-%COMP%]:hover {
     background: color-mix(in srgb, var(--pill-accent) 15%, transparent);
   }
 
-  .pill-group .pill:nth-child(6n + 1) {
+  .pill-group[_ngcontent-%COMP%]   .pill[_ngcontent-%COMP%]:nth-child(6n + 1) {
     --pill-accent: var(--bright-blue);
   }
-  .pill-group .pill:nth-child(6n + 2) {
+  .pill-group[_ngcontent-%COMP%]   .pill[_ngcontent-%COMP%]:nth-child(6n + 2) {
     --pill-accent: var(--french-violet);
   }
-  .pill-group .pill:nth-child(6n + 3),
-  .pill-group .pill:nth-child(6n + 4),
-  .pill-group .pill:nth-child(6n + 5) {
+  .pill-group[_ngcontent-%COMP%]   .pill[_ngcontent-%COMP%]:nth-child(6n + 3), 
+   .pill-group[_ngcontent-%COMP%]   .pill[_ngcontent-%COMP%]:nth-child(6n + 4), 
+   .pill-group[_ngcontent-%COMP%]   .pill[_ngcontent-%COMP%]:nth-child(6n + 5) {
     --pill-accent: var(--hot-red);
   }
 
-  .pill-group svg {
+  .pill-group[_ngcontent-%COMP%]   svg[_ngcontent-%COMP%] {
     margin-inline-start: 0.25rem;
   }
 
-  .social-links {
+  .social-links[_ngcontent-%COMP%] {
     display: flex;
     align-items: center;
     gap: 0.73rem;
     margin-top: 1.5rem;
   }
 
-  .social-links path {
+  .social-links[_ngcontent-%COMP%]   path[_ngcontent-%COMP%] {
     transition: fill 0.3s ease;
     fill: var(--gray-400);
   }
 
-  .social-links a:hover svg path {
+  .social-links[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover   svg[_ngcontent-%COMP%]   path[_ngcontent-%COMP%] {
     fill: var(--gray-900);
   }
 
   @media screen and (max-width: 650px) {
-    .content {
+    .content[_ngcontent-%COMP%] {
       flex-direction: column;
       width: max-content;
     }
 
-    .divider {
+    .divider[_ngcontent-%COMP%] {
       height: 1px;
       width: 100%;
       background: var(--red-to-pink-to-purple-horizontal-gradient);
       margin-block: 1.5rem;
     }
-  }
-</style>
-
-<main class="main">
-  alo
-
-  <iframe
-    name="q-alert"
-    allow="fullscreen;clipboard-write *;clipboard-read *;"
-    ng-style="vm.iframeStyle"
-    src="https://pages.atc-github.azure.cloud.bmw/qxz5a5y/ds-select-window-bug/"
-    style="visibility: visible"
-    width="412"
-    height="915"
-  ></iframe>
-
-  
-</main>
-
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-<router-outlet />
+  }`]})}return n})();var u=[];var C={providers:[p({eventCoalescing:!0}),f(u),s()]};var O={providers:[d()]},M=g(C,O);var P=()=>m(v,M),B=P;export{B as a};
